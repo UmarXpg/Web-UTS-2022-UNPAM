@@ -147,6 +147,45 @@ header .hero h4 {
     width: 600px;
 }
 
+.lambang {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #fefff7;
+}
+
+.lambang .box-lambang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lambang .box-lambang .box {
+    margin-left: 10%;
+    padding-right: 30px;
+}
+
+.lambang .box-lambang .box h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.lambang .box-lambang .box p {
+    line-height: 2;
+}
+
+.lambang .box-lambang .box-image img {
+    margin-left: 3%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 400px;
+}
+
 .detail {
     width: 100%;
     height: 100vh;
@@ -193,14 +232,14 @@ header .hero h4 {
 }
 
 .famous .header-famous {
-    padding-top: 170px;
+    padding-top: 200px;
     color: rgba(255, 255, 255, 0.911);
     font-size: 50px;
     text-align: center;
 }
 
 .famous .box-famous {
-    padding-top: 150px;
+    padding-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -224,7 +263,7 @@ header .hero h4 {
 }
 
 .footer {
-    background-color: #f1faee;
+    background-color: #d9d9d9;
 }
 
 .footer p {
